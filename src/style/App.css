@@ -1,6 +1,6 @@
 @import url(../style/table/table.css);
 @import url(../style/header/header.css);
-@import url(../style/search/header.css);
+@import url(../style/search/search.css);
 .App {
   text-align: center;
   font-family: 'Roboto';
