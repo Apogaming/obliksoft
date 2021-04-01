@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/obliksoft/static/css/main.9e5d4b1b.chunk.css",
+    "main.js": "/obliksoft/static/js/main.1164eb14.chunk.js",
+    "main.js.map": "/obliksoft/static/js/main.1164eb14.chunk.js.map",
+    "runtime-main.js": "/obliksoft/static/js/runtime-main.526f8ee0.js",
+    "runtime-main.js.map": "/obliksoft/static/js/runtime-main.526f8ee0.js.map",
+    "static/js/2.dba4c193.chunk.js": "/obliksoft/static/js/2.dba4c193.chunk.js",
+    "static/js/2.dba4c193.chunk.js.map": "/obliksoft/static/js/2.dba4c193.chunk.js.map",
+    "index.html": "/obliksoft/index.html",
+    "static/css/main.9e5d4b1b.chunk.css.map": "/obliksoft/static/css/main.9e5d4b1b.chunk.css.map",
+    "static/js/2.dba4c193.chunk.js.LICENSE.txt": "/obliksoft/static/js/2.dba4c193.chunk.js.LICENSE.txt",
+    "static/media/cancel.2a6d6a23.svg": "/obliksoft/static/media/cancel.2a6d6a23.svg",
+    "static/media/App.css": "/obliksoft/static/media/viber.bc735e0a.svg",
+    "static/media/refresh.e19a8b43.svg": "/obliksoft/static/media/refresh.e19a8b43.svg",
+    "static/media/search.3f126081.svg": "/obliksoft/static/media/search.3f126081.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.526f8ee0.js",
+    "static/js/2.dba4c193.chunk.js",
+    "static/css/main.9e5d4b1b.chunk.css",
+    "static/js/main.1164eb14.chunk.js"
+  ]
+}

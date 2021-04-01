@@ -1,0 +1,92 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "name": "Александра Александрова",
+            "phone": "096 555 55 55",
+            "app" : "telegram",
+            "message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus mollitia alias fugit sunt labore facilis fugiat dicta nihil eos ipsum.",
+            "time": "11:50",
+            "date": "31.03.2021",
+            "read": true,
+            "state": "female"
+        },
+        {
+            "id": 1,
+            "name": "илександра Александрова",
+            "phone": "096 555 55 55",
+            "app" : "telegram",
+            "message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus mollitia alias fugit sunt labore facilis fugiat dicta nihil eos ipsum.",
+            "time": "11:50",
+            "date": "31.03.2021",
+            "read": true,
+            "state": "male"
+        },
+        {
+            "id": 2,
+            "name": "Александра Александрова",
+            "phone": "096 555 55 55",
+            "app" : "telegram",
+            "message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus mollitia alias fugit sunt labore facilis fugiat dicta nihil eos ipsum.",
+            "time": "11:50",
+            "date": "31.03.2021",
+            "read": false,
+            "state": "female"
+        },
+        {
+            "id": 3,
+            "name": "Александра Александрова",
+            "phone": "096 555 55 55",
+            "app" : "telegram",
+            "message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus mollitia alias fugit sunt labore facilis fugiat dicta nihil eos ipsum.",
+            "time": "11:50",
+            "date": "31.03.2021",
+            "read": false,
+            "state": "male"
+        },
+        {
+            "id": 4,
+            "name": "Александра Александрова",
+            "phone": "096 555 55 55",
+            "app" : "viber",
+            "message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus mollitia alias fugit sunt labore facilis fugiat dicta nihil eos ipsum.",
+            "time": "11:50",
+            "date": "31.03.2021",
+            "read": false,
+            "state": "female"
+        },
+        {
+            "id": 5,
+            "name": "Александра Александрова",
+            "phone": "096 555 55 55",
+            "app" : "viber",
+            "message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus mollitia alias fugit sunt labore facilis fugiat dicta nihil eos ipsum.",
+            "time": "11:50",
+            "date": "31.03.2021",
+            "read": false,
+            "state": "male"
+        },
+        {
+            "id": 6,
+            "name": "Александра Александрова",
+            "phone": "096 555 55 55",
+            "app" : "viber",
+            "message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus mollitia alias fugit sunt labore facilis fugiat dicta nihil eos ipsum.",
+            "time": "11:50",
+            "date": "31.03.2021",
+            "read": false,
+            "state": "male"
+        },
+        {
+            "id": 7,
+            "name": "Александра Александрова",
+            "phone": "096 555 55 55",
+            "app" : "viber",
+            "message": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus mollitia alias fugit sunt labore facilis fugiat dicta nihil eos ipsum.",
+            "time": "11:50",
+            "date": "31.03.2021",
+            "read": false,
+            "state": "male"
+        }
+    ]
+}
