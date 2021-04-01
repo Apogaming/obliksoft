@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import './style/App.css';
+import refresh from './img/refresh.svg';
+import { useState } from 'react';
+import JsonData from './data.json';
+import Search from './components/search/Search';
+import Table from './components/table/Table';
 
 function App() {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [jsonData, setJsonData] = useState(JsonData);
+
+  const getData = () => {
+    fetch('http://localhost:3001/data.json').then((data) => {
+      return data.json();
+    }).then((data) => {
+      setJsonData(data);
+    })
+  }
+  const callback = (value) => {
+    setSearchTerm(value);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <Search parentCallback={callback} />
+      <header className="header">
+        <img src={refresh} onClick={getData}
+        />
+        <p className="header__title">Знайдено 8 клієнтів</p>
       </header>
+      <Table searchTerm={searchTerm} jsonData={jsonData} />
     </div>
   );
 }
-
 export default App;

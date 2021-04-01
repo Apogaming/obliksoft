@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    background: #EAF2FF;
+    padding: 3px;
+}
+
+.header__title {
+    margin-left: 2rem;
+}
+
+.header img {
+    margin-left: 2rem;
+    cursor: pointer;
+}

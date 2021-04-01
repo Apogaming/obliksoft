@@ -1,5 +1,15 @@
+@import url(../style/table/table.css);
+@import url(../style/header/header.css);
+@import url(../style/search/header.css);
 .App {
   text-align: center;
+  font-family: 'Roboto';
+  color: #333;
+  font-size: 14px;
+  background: #F9FAFF;
+  padding: 3rem;
+  max-width: 1240px;
+  margin: auto;
 }
 
 .App-logo {
